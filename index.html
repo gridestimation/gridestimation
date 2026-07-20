@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Grid Estimations provides professional Construction Estimation by CSI Division, Material Takeoffs, and complete Solar Documentation.">
-    <title>Construction Estimating & Solar Documentation | Grid Estimations</title>
+    <meta name="description" content="Get accurate takeoff and estimating services for all construction types and trades with 96% accuracy. Win More Bids with Grid Estimations.">
+    <title>Construction Estimating Services in Canada For Busy Contractors | Grid Estimations</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -12,10 +12,10 @@
                 extend: {
                     colors: {
                         brand: {
-                            green: '#4ade80', /* Brand Eco Green */
+                            green: '#4ade80',
                             dark: '#0f172a',
-                            navy: '#1a1a2e', /* Matched with Screenshot Background */
-                            accent: '#fbbf24' /* Brand Sun Yellow */
+                            navy: '#1a1a2e',
+                            accent: '#fbbf24'
                         }
                     },
                     fontFamily: {
@@ -25,69 +25,46 @@
             }
         }
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="font-sans text-gray-800 bg-gray-50 flex flex-col min-h-screen">
-    
-    <!-- Screenshot Exact Header -->
+
+    <!-- Top Info Bar -->
+    <div class="bg-[#1a1a2e] text-gray-300 text-xs py-2 px-4 border-b border-gray-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span>Canadian estimators since 2010</span>
+                <span>•</span>
+                <span>All Canadian Provinces Coverage</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:+15874419133" class="hover:text-brand-green font-semibold">Direct Line: +1 (587) 441-9133</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
     <header class="bg-[#1a1a2e] shadow-lg sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="index.html" class="flex items-center gap-3">
-                        <img class="h-10 w-auto object-contain bg-white rounded p-1" src="assets/images/Green and Peach Abstract Solar Energy Logo.jpg" alt="Grid Estimations Logo">
-                        <span class="font-bold text-lg text-white tracking-tight">GRID ESTIMATIONS</span>
+                        <span class="font-bold text-xl text-white tracking-tight">GRID ESTIMATIONS</span>
                     </a>
                 </div>
                 
-                <!-- Desktop Navigation (Matching image_3c14e4.png) -->
-                <nav class="hidden lg:flex space-x-7 items-center">
+                <nav class="hidden lg:flex space-x-6 items-center">
                     <a href="index.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Home</a>
-                    
-                    <!-- Services Dropdown -->
-                    <div class="relative group py-6">
-                        <a href="services.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors flex items-center gap-1 cursor-pointer">
-                            Services
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                        </a>
-                        <!-- Dropdown Menu -->
-                        <div class="absolute left-0 mt-0 w-64 bg-white rounded-md shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 overflow-hidden top-[70px]">
-                            <a href="services.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Construction Estimating</a>
-                            <a href="services.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Cost Estimating</a>
-                            <a href="services.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Material Takeoffs</a>
-                            <a href="services.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green">Quantity Surveying</a>
-                        </div>
-                    </div>
-
-                    <!-- Our Trades Dropdown (Solar included here) -->
-                    <div class="relative group py-6">
-                        <a href="trades.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors flex items-center gap-1 cursor-pointer">
-                            Our Trades
-                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                        </a>
-                        <!-- Dropdown Menu -->
-                        <div class="absolute left-0 mt-0 w-64 bg-white rounded-md shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 overflow-hidden top-[70px] max-h-[70vh] overflow-y-auto">
-                            <a href="trades.html" class="block px-4 py-3 text-sm font-bold text-brand-dark hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100 bg-gray-50">⚡ Solar Design & PE Stamps</a>
-                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Sitework Estimating</a>
-                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Concrete Estimating</a>
-                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Masonry Estimating</a>
-                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Metals Estimating</a>
-                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Electrical Estimating</a>
-                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green">HVAC & Plumbing</a>
-                        </div>
-                    </div>
-
-                    <a href="plans.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Plans</a>
-                    <a href="projects.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Projects</a>
-                    <a href="blogs.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Blogs</a>
-                    <a href="samples.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Samples</a>
-                    <a href="about.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">About Us</a>
+                    <a href="#services" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Services</a>
+                    <a href="#trades" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Our Trades</a>
+                    <a href="#locations" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Locations</a>
+                    <a href="#blogs" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Blog</a>
+                    <a href="#calculator" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Cost Calculator</a>
+                    <a href="#about" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Company</a>
                 </nav>
 
-                <!-- Contact Button -->
                 <div class="hidden lg:flex items-center">
-                    <a href="contact.html" class="bg-brand-green text-[#1a1a2e] px-6 py-2.5 rounded-md hover:bg-white transition-colors font-bold text-sm">Contact Us</a>
+                    <a href="#contact" class="bg-brand-green text-[#1a1a2e] px-6 py-2.5 rounded-md hover:bg-brand-accent transition-colors font-bold text-sm uppercase tracking-wide">Get Estimate Now</a>
                 </div>
             </div>
         </div>
@@ -95,82 +72,448 @@
 
     <main class="flex-grow">
         <!-- Hero Section -->
-        <section class="relative bg-brand-dark overflow-hidden py-24 lg:py-32">
-            <div class="absolute inset-0 opacity-20">
-                <img src="https://images.unsplash.com/photo-1541888081643-eb80b6b216ee?q=80&w=2070&auto=format&fit=crop" alt="Construction Background" class="w-full h-full object-cover">
-            </div>
-            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 z-10 text-center lg:text-left">
-                <p class="text-brand-green font-bold tracking-widest uppercase mb-4 text-sm">Construction & Solar Experts</p>
-                <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl mb-6">
-                    Estimating by <span class="text-brand-green">Trade & CSI Division</span><br>
-                    <span class="text-3xl sm:text-4xl md:text-5xl text-gray-300 mt-2 block">+ Comprehensive Solar Design</span>
-                </h1>
-                <p class="mt-3 text-base text-gray-300 sm:text-lg lg:max-w-3xl md:text-xl mb-10 mx-auto lg:mx-0">
-                    Accurate cost estimates, material takeoffs, and complete solar documentation (PE Stamps & AHJ Compliance). We deliver detailed quantities and labor hours using RSMeans pricing, tailored for contractors and developers nationwide.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                    <a href="contact.html" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-bold rounded-md text-[#1a1a2e] bg-brand-green hover:bg-white transition-all">
-                        Upload Your Plans
-                    </a>
+        <section class="relative bg-brand-dark overflow-hidden py-20 lg:py-28 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <div class="inline-block bg-brand-green/10 text-brand-green px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 border border-brand-green/20">Canadian estimators since 2010</div>
+                        <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-6 leading-tight">
+                            Construction Estimating Services in Canada For <span class="text-brand-green">Busy Contractors</span>
+                        </h1>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Get accurate takeoff and estimating services for all construction types and trades with 96% accuracy. Win More Bids.
+                        </p>
+                        <div class="space-y-3 mb-8 text-sm text-gray-300">
+                            <div class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Accurate Material Takeoff</div>
+                            <div class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Bid Ready Estimate</div>
+                            <div class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> All CSI Trades</div>
+                        </div>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 font-bold rounded-md text-[#1a1a2e] bg-brand-green hover:bg-brand-accent transition-all text-center">Get Estimate Now →</a>
+                            <a href="#samples" class="inline-flex items-center justify-center px-8 py-4 font-bold rounded-md text-white bg-white/10 hover:bg-white/20 transition-all text-center">View Sample</a>
+                        </div>
+                    </div>
+                    <div class="bg-white/5 p-8 rounded-2xl border border-white/10 backdrop-blur-sm">
+                        <h3 class="text-xl font-bold mb-6 text-brand-green">Key Project Metrics</h3>
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="border-b border-gray-700 pb-4">
+                                <div class="text-3xl font-extrabold text-white">10-48 Hours</div>
+                                <div class="text-xs text-gray-400 uppercase tracking-wider mt-1">Turnaround Time</div>
+                            </div>
+                            <div class="border-b border-gray-700 pb-4">
+                                <div class="text-3xl font-extrabold text-white">8,900+</div>
+                                <div class="text-xs text-gray-400 uppercase tracking-wider mt-1">Estimates Completed</div>
+                            </div>
+                            <div class="pt-2">
+                                <div class="text-3xl font-extrabold text-white">96%</div>
+                                <div class="text-xs text-gray-400 uppercase tracking-wider mt-1">Accuracy Rate</div>
+                            </div>
+                            <div class="pt-2">
+                                <div class="text-3xl font-extrabold text-white">All Provinces</div>
+                                <div class="text-xs text-gray-400 uppercase tracking-wider mt-1">Canadian Coverage</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Stats Bar -->
-        <section class="bg-brand-green py-10 shadow-inner">
+        <!-- Software & Certifications Bar -->
+        <section class="bg-white py-12 border-b border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h3 class="text-sm font-semibold uppercase tracking-widest text-gray-500 mb-6">Estimating software we use & certifications</h3>
+                <div class="flex flex-wrap justify-center items-center gap-6 md:gap-12 text-gray-700 font-bold text-sm md:text-base">
+                    <span class="px-4 py-2 bg-gray-100 rounded-lg shadow-sm">PlanSwift</span>
+                    <span class="px-4 py-2 bg-gray-100 rounded-lg shadow-sm">Bluebeam Revu</span>
+                    <span class="px-4 py-2 bg-gray-100 rounded-lg shadow-sm">On-Screen Takeoff</span>
+                    <span class="px-4 py-2 bg-gray-100 rounded-lg shadow-sm">RSMeans</span>
+                    <span class="px-4 py-2 bg-gray-100 rounded-lg shadow-sm">Trimble</span>
+                    <span class="px-4 py-2 bg-gray-100 rounded-lg shadow-sm">FastDUCT / FastPIPE</span>
+                </div>
+                <div class="mt-8 flex flex-wrap justify-center gap-4 text-xs font-semibold text-gray-600">
+                    <span class="flex items-center gap-1">✓ CET Certified Estimators</span>
+                    <span>•</span>
+                    <span class="flex items-center gap-1">✓ CIQS Members</span>
+                    <span>•</span>
+                    <span class="flex items-center gap-1">✓ AACE Standards</span>
+                    <span>•</span>
+                    <span class="flex items-center gap-1">✓ ASPE Aligned</span>
+                    <span>•</span>
+                    <span class="flex items-center gap-1">✓ RSMeans Cost Data</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Intro Section -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-base text-brand-green font-semibold tracking-wide uppercase mb-2">Our Construction Estimating Services</h2>
+                <h3 class="text-3xl font-extrabold text-brand-dark mb-6">Reliable Estimating Partner Trusted Across Canada</h3>
+                <p class="text-gray-600 leading-relaxed mb-6">
+                    Grid Estimations is a reliable construction estimating partner trusted by contractors and builders in Canada. We have been in the construction industry for 16 years, providing accurate construction cost estimates and detailed construction takeoff services to contractors and construction managers. Our estimates have been used to bid jobs, order materials, and plan construction schedules.
+                </p>
+                <p class="text-gray-600 leading-relaxed">
+                    We calculate costs for every type of construction project, from 1,000 sq ft starter homes to 500,000 sq ft industrial facilities, by using advanced construction estimating software to measure quantities from your drawings. Our pricing is also market competitive. We charge project to project, not a fixed amount or percentage.
+                </p>
+            </div>
+        </section>
+
+        <!-- Core Services Detail Grid -->
+        <section id="services" class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-[#1a1a2e]/20">
-                    <div class="p-4">
-                        <div class="text-4xl font-extrabold text-[#1a1a2e] mb-2">2000 +</div>
-                        <div class="text-[#1a1a2e] font-semibold uppercase tracking-wide">Projects Estimated</div>
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-extrabold text-brand-dark sm:text-4xl">Comprehensive Estimating Solutions</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Tailored service breakdowns designed to match your specific project stage and scope.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 shadow-sm">
+                        <h3 class="text-xl font-bold text-brand-dark mb-3">Cost Estimating Services</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Whether it's a residential home or a large commercial build, or an industrial project, we break down every cost element including materials, labour, equipment, and overhead, to give you a clear picture of your project budget following MasterFormat standards.</p>
                     </div>
-                    <div class="p-4">
-                        <div class="text-4xl font-extrabold text-[#1a1a2e] mb-2">150 +</div>
-                        <div class="text-[#1a1a2e] font-semibold uppercase tracking-wide">Trades Covered</div>
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 shadow-sm">
+                        <h3 class="text-xl font-bold text-brand-dark mb-3">Construction Takeoff Services</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">We provide accurate construction takeoff services that help contractors order materials, schedule deliveries, and allocate labour crews, backed by expert estimators with 12-20 years of field construction experience.</p>
                     </div>
-                    <div class="p-4">
-                        <div class="text-4xl font-extrabold text-[#1a1a2e] mb-2">4000 +</div>
-                        <div class="text-[#1a1a2e] font-semibold uppercase tracking-wide">Satisfied Customers</div>
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 shadow-sm">
+                        <h3 class="text-xl font-bold text-brand-dark mb-3">Residential Estimating Services</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Home builders and residential contractors use our residential estimating services to bid custom builds, spec developments, and renovation projects, accounting for Canadian residential building codes.</p>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 shadow-sm">
+                        <h3 class="text-xl font-bold text-brand-dark mb-3">Commercial Construction Estimating</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Handling projects from 5,000 sq ft retail spaces to 300,000 sq ft office towers with expertise in Canadian commercial codes, LEED certification, and accessibility standards.</p>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 shadow-sm">
+                        <h3 class="text-xl font-bold text-brand-dark mb-3">Preliminary Estimating Services</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Also called conceptual estimates, we use cost-per-square-foot models and regional cost indices to provide solid budget parameters for early-stage planning and land purchase decisions.</p>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200 shadow-sm">
+                        <h3 class="text-xl font-bold text-brand-dark mb-3">Industrial Estimating Services</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Handling projects ranging from $2 million equipment installations to $200 million processing facilities, providing detailed breakdowns and precise material estimates.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <section class="py-20 bg-gray-50 text-center text-gray-500">
-            <p>Main content structure continues here...</p>
+
+        <!-- Trades Covered Section -->
+        <section id="trades" class="py-20 bg-gray-50 border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-base text-brand-green font-semibold tracking-wide uppercase">Our Trades</h2>
+                    <p class="mt-2 text-3xl font-extrabold text-brand-dark sm:text-4xl">Trades We Cover in Our Construction Estimating Company</p>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                        We provide accurate construction estimating services and takeoffs for all construction scopes across all 33 CSI divisions.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">01</span><div class="font-bold text-brand-dark text-base">Roofing Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">02</span><div class="font-bold text-brand-dark text-base">MEP Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">03</span><div class="font-bold text-brand-dark text-base">Concrete Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">04</span><div class="font-bold text-brand-dark text-base">Masonry Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">05</span><div class="font-bold text-brand-dark text-base">Rebar Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">06</span><div class="font-bold text-brand-dark text-base">Interior / Exterior Finishes</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">07</span><div class="font-bold text-brand-dark text-base">Flooring Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">08</span><div class="font-bold text-brand-dark text-base">Lumber Takeoff</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">09</span><div class="font-bold text-brand-dark text-base">Painting Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">10</span><div class="font-bold text-brand-dark text-base">Plumbing Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">11</span><div class="font-bold text-brand-dark text-base">HVAC Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">12</span><div class="font-bold text-brand-dark text-base">Electrical Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">13</span><div class="font-bold text-brand-dark text-base">Steel Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all"><span class="text-xs text-brand-green font-bold block mb-1">14</span><div class="font-bold text-brand-dark text-base">Sitework Estimating</div></div>
+                    <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:border-brand-green transition-all col-span-2 md:col-span-2"><span class="text-xs text-brand-green font-bold block mb-1">15</span><div class="font-bold text-brand-dark text-base">Demolition Estimating</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What We Quantify & Deliverables -->
+        <section class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-extrabold text-brand-dark sm:text-4xl">What We Quantify & Deliver In Our Services</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Organized by CSI division and ready for immediate bid submission.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200">
+                        <h3 class="text-xl font-bold text-brand-dark mb-4">Material Quantities by Trade</h3>
+                        <ul class="space-y-3 text-sm text-gray-600">
+                            <li class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Concrete, masonry, drywall, electrical, plumbing, HVAC, finishes</li>
+                            <li class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Detailed breakdown per CSI division</li>
+                            <li class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Accurate quantities for ordering & procurement</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200">
+                        <h3 class="text-xl font-bold text-brand-dark mb-4">Material & Equipment Costs</h3>
+                        <ul class="space-y-3 text-sm text-gray-600">
+                            <li class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Local pricing for materials and equipment</li>
+                            <li class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Vendor and supplier cost references</li>
+                            <li class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Cost adjustments based on project location</li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-50 p-8 rounded-xl border border-gray-200">
+                        <h3 class="text-xl font-bold text-brand-dark mb-4">Labour Hour Estimations</h3>
+                        <ul class="space-y-3 text-sm text-gray-600">
+                            <li class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Trade-specific labour hour calculations</li>
+                            <li class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Productivity factors and complexity considered</li>
+                            <li class="flex items-center gap-2"><span class="text-brand-green font-bold">✓</span> Supports realistic scheduling</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bg-brand-navy text-white p-8 md:p-12 rounded-2xl">
+                    <h3 class="text-2xl font-bold mb-6 text-brand-green">What You Hand Over (Deliverables)</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div>
+                            <h4 class="font-bold text-lg mb-2">Editable Excel estimate</h4>
+                            <p class="text-gray-300 text-sm">Line-by-line breakdown by CSI division, priced and ready to edit.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-2">Colour-coded marked-up plans</h4>
+                            <p class="text-gray-300 text-sm">Every quantity traced straight back to your original drawings.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg mb-2">Bid-ready summary</h4>
+                            <p class="text-gray-300 text-sm">Totals formatted to drop straight into your bid or budget package with scope letter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3-Step Process -->
+        <section class="py-20 bg-gray-50 border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-extrabold text-brand-dark sm:text-4xl">Get Construction Cost Estimates in 3 Simple Steps</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Fast, hassle-free procedure with no contracts required.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm relative">
+                        <div class="text-4xl font-extrabold text-brand-green mb-4">01</div>
+                        <h3 class="text-xl font-bold text-brand-dark mb-3">Submit Project Plans & Specifications</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">We go through your construction project's plan, scope, and details. We accept PDF, DWG, and paper drawings.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm relative">
+                        <div class="text-4xl font-extrabold text-brand-green mb-4">02</div>
+                        <h3 class="text-xl font-bold text-brand-dark mb-3">We Perform Takeoff & Detailed Estimate</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">Using advanced estimating software, we calculate materials, labour, and equipment costs using current market pricing.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl border border-gray-200 shadow-sm relative">
+                        <div class="text-4xl font-extrabold text-brand-green mb-4">03</div>
+                        <h3 class="text-xl font-bold text-brand-dark mb-3">Receive Your Estimates in Excel / PDF</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed">We provide reliable cost estimates in your preferred format complete with a detailed scope letter and clarifications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Locations Covered -->
+        <section id="locations" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-base text-brand-green font-semibold tracking-wide uppercase">Coverage</h2>
+                    <p class="mt-2 text-3xl font-extrabold text-brand-dark sm:text-4xl">🇨🇦 Get Construction Estimating Services Across Canada</p>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                        We understand regional variations, including climate factors, local labour rates, and provincial building codes.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-6 text-center">
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-brand-dark mb-2">Alberta</h4>
+                        <p class="text-xs text-gray-600">Calgary, Edmonton</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-brand-dark mb-2">British Columbia</h4>
+                        <p class="text-xs text-gray-600">Vancouver, Surrey, Burnaby, Kelowna, Richmond</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-brand-dark mb-2">Manitoba</h4>
+                        <p class="text-xs text-gray-600">Winnipeg, Brandon, Dauphin, Morden, Winkler</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-brand-dark mb-2">Quebec</h4>
+                        <p class="text-xs text-gray-600">Montreal, Quebec City, Laval</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-brand-dark mb-2">Nova Scotia</h4>
+                        <p class="text-xs text-gray-600">Halifax, Cape Breton, Lunenburg, Sydney</p>
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <h4 class="font-bold text-brand-dark mb-2">Ontario</h4>
+                        <p class="text-xs text-gray-600">Toronto, Ottawa, Hamilton, Mississauga, Brampton</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cost Calculator Simulation Section -->
+        <section id="calculator" class="py-20 bg-gray-50 border-t border-gray-200">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-gray-200">
+                <div class="text-center mb-8">
+                    <h2 class="text-2xl font-extrabold text-brand-dark">Cost Calculator Ballpark</h2>
+                    <p class="text-gray-600 text-sm mt-2">Pick a project type and square footage for an instant ballpark range.</p>
+                </div>
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Project Type</label>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+                            <button type="button" class="py-2.5 px-4 rounded-lg border border-brand-green bg-brand-green/10 text-brand-dark font-semibold text-sm">Residential</button>
+                            <button type="button" class="py-2.5 px-4 rounded-lg border border-gray-300 hover:border-gray-400 text-gray-700 text-sm">Commercial</button>
+                            <button type="button" class="py-2.5 px-4 rounded-lg border border-gray-300 hover:border-gray-400 text-gray-700 text-sm">Industrial</button>
+                            <button type="button" class="py-2.5 px-4 rounded-lg border border-gray-300 hover:border-gray-400 text-gray-700 text-sm">Renovation</button>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold mb-2">Square footage: <span class="text-brand-green font-bold">231,500 sq ft</span></label>
+                        <input type="range" min="500" max="500000" value="231500" class="w-full accent-brand-green">
+                    </div>
+                    <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 text-center">
+                        <div class="text-xs text-gray-500 uppercase tracking-wider mb-1">Estimated construction cost</div>
+                        <div class="text-3xl font-extrabold text-brand-dark">$27.78M to $60.19M <span class="text-xs font-normal text-gray-500">CAD</span></div>
+                        <div class="text-xs text-gray-500 mt-2">Turnaround: 48 to 72 hours</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company / About Us Section -->
+        <section id="about" class="py-20 bg-brand-navy text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-base text-brand-green font-semibold tracking-wide uppercase mb-2">Company</h2>
+                        <h3 class="text-3xl font-extrabold mb-6">Building Trust Through Accurate Costing</h3>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            At Grid Estimations, we believe that accurate estimates build trust and confidence in construction projects. Our experienced estimators carefully analyze project drawings, materials, labor requirements, and market pricing to produce reliable estimates.
+                        </p>
+                        <p class="text-gray-300 leading-relaxed">
+                            We serve contractors across the USA and Canada with professional insight, helping reduce unexpected expenses and keep projects on schedule and within budget.
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div class="bg-white/5 p-6 rounded-xl border border-white/10">
+                            <h4 class="text-lg font-bold text-brand-green mb-2">Our Mission</h4>
+                            <p class="text-gray-300 text-sm">To empower construction professionals with accurate estimating solutions that improve project planning and bidding success.</p>
+                        </div>
+                        <div class="bg-white/5 p-6 rounded-xl border border-white/10">
+                            <h4 class="text-lg font-bold text-brand-green mb-2">Our Vision</h4>
+                            <p class="text-gray-300 text-sm">To become a trusted construction estimating company providing reliable cost insights worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blogs" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-base text-brand-green font-semibold tracking-wide uppercase">Blog</h2>
+                    <p class="mt-2 text-3xl font-extrabold text-brand-dark sm:text-4xl">Latest Construction Estimating Resources</p>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Stay informed with guides, tips, and industry insights.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-lg font-bold text-brand-dark mb-2">Construction Cost Estimating Guide</h4>
+                            <p class="text-gray-600 text-sm">A comprehensive guide to construction cost estimating methods, tools, and best practices.</p>
+                        </div>
+                        <span class="mt-6 text-brand-green font-semibold text-sm">Read Article &rarr;</span>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-lg font-bold text-brand-dark mb-2">How to Estimate Construction Costs</h4>
+                            <p class="text-gray-600 text-sm">Step-by-step guide to estimating construction costs accurately for residential and commercial projects.</p>
+                        </div>
+                        <span class="mt-6 text-brand-green font-semibold text-sm">Read Article &rarr;</span>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl border border-gray-200 shadow-sm flex flex-col justify-between">
+                        <div>
+                            <h4 class="text-lg font-bold text-brand-dark mb-2">Common Construction Estimating Mistakes</h4>
+                            <p class="text-gray-600 text-sm">Avoid the most common errors that lead to budget overruns and lost bids.</p>
+                        </div>
+                        <span class="mt-6 text-brand-green font-semibold text-sm">Read Article &rarr;</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-brand-dark text-white">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-extrabold mb-4">Busy Contractors — Get Your Estimate</h2>
+                <p class="text-gray-300 mb-8 max-w-xl mx-auto">Accurate Construction Estimates Delivered in 10–48 Hours. No contracts required.</p>
+                <div class="bg-white text-gray-800 p-8 rounded-xl shadow-lg text-left">
+                    <form onsubmit="event.preventDefault(); alert('Thank you! Your submission has been received.');" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">Your Name</label>
+                                <input type="text" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-green" placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold mb-2">Email Address</label>
+                                <input type="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-green" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">What do you need?</label>
+                            <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-green">
+                                <option>Full Estimate</option>
+                                <option>Takeoff Only</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold mb-2">Project Details / Upload Plans Link</label>
+                            <textarea rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-brand-green" placeholder="Paste link to plans or describe project scope..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-4 bg-brand-green text-brand-navy font-bold rounded-lg hover:bg-brand-accent transition-colors">Get My Free Quote →</button>
+                    </form>
+                </div>
+            </div>
         </section>
 
     </main>
     
     <!-- Footer -->
-    <footer class="bg-[#1a1a2e] text-white pt-16 pb-8">
+    <footer id="samples" class="bg-[#1a1a2e] text-white pt-16 pb-8 border-t border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div class="col-span-1 md:col-span-1">
-                    <img class="h-12 w-auto bg-white p-1 rounded mb-4 object-contain" src="assets/images/Green and Peach Abstract Solar Energy Logo.jpg" alt="Grid Estimations Logo">
-                    <p class="text-gray-400 text-sm mt-4">Precision Estimation Services & Solar Engineering for Your Construction Projects.</p>
+                    <p class="font-bold text-lg text-white mb-4">GRID ESTIMATIONS</p>
+                    <p class="text-gray-400 text-sm mt-4">Precision Estimation Services for Your Construction Projects. Your Trusted Construction Estimation Experts.</p>
+                    <p class="text-brand-green font-semibold mt-4">+1 587 441 9133</p>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase mb-4">Popular Services</h3>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#services" class="hover:text-brand-green transition">Residential Estimating</a></li>
+                        <li><a href="#services" class="hover:text-brand-green transition">Commercial Estimating</a></li>
+                        <li><a href="#services" class="hover:text-brand-green transition">Industrial Estimating</a></li>
+                        <li><a href="#services" class="hover:text-brand-green transition">Construction Takeoff</a></li>
+                        <li><a href="#services" class="hover:text-brand-green transition">Preliminary Estimating</a></li>
+                    </ul>
                 </div>
                 <div>
                     <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase mb-4">Quick Links</h3>
                     <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a href="index.html" class="hover:text-brand-green transition">Home</a></li>
-                        <li><a href="trades.html" class="hover:text-brand-green transition">Our Trades</a></li>
-                        <li><a href="services.html" class="hover:text-brand-green transition">Services</a></li>
+                        <li><a href="#about" class="hover:text-brand-green transition">About Us</a></li>
+                        <li><a href="#contact" class="hover:text-brand-green transition">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-brand-green transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-brand-green transition">Terms and Condition</a></li>
+                        <li><a href="#calculator" class="hover:text-brand-green transition">Pricing</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase mb-4">Company</h3>
+                    <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase mb-4">Popular Trades</h3>
                     <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a href="about.html" class="hover:text-brand-green transition">About Us</a></li>
-                        <li><a href="projects.html" class="hover:text-brand-green transition">Projects</a></li>
-                        <li><a href="contact.html" class="hover:text-brand-green transition">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase mb-4">Contact</h3>
-                    <ul class="space-y-2 text-sm text-gray-400">
-                        <li>Email: info@gridestimations.com</li>
-                        <li>Location: Serving Nationwide (USA & Canada)</li>
+                        <li><a href="#trades" class="hover:text-brand-green transition">Structural Estimating</a></li>
+                        <li><a href="#trades" class="hover:text-brand-green transition">Concrete Estimating</a></li>
+                        <li><a href="#trades" class="hover:text-brand-green transition">Electrical Estimating</a></li>
+                        <li><a href="#trades" class="hover:text-brand-green transition">Plumbing Estimating</a></li>
+                        <li><a href="#trades" class="hover:text-brand-green transition">MEP Estimating</a></li>
                     </ul>
                 </div>
             </div>
