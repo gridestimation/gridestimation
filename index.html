@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Grid Estimations provides professional Construction Estimation by CSI Division, Material Takeoffs, and complete Solar Documentation (PE Stamps, AHJ Compliance).">
+    <meta name="description" content="Grid Estimations provides professional Construction Estimation by CSI Division, Material Takeoffs, and complete Solar Documentation.">
     <title>Construction Estimating & Solar Documentation | Grid Estimations</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -14,7 +14,7 @@
                         brand: {
                             green: '#4ade80', /* Brand Eco Green */
                             dark: '#0f172a',
-                            navy: '#1e293b', /* Brand Navy Blue */
+                            navy: '#1a1a2e', /* Matched with Screenshot Background */
                             accent: '#fbbf24' /* Brand Sun Yellow */
                         }
                     },
@@ -25,34 +25,70 @@
             }
         }
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        .vertical-text {
-            writing-mode: vertical-rl;
-            transform: rotate(180deg);
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="font-sans text-gray-800 bg-gray-50 flex flex-col min-h-screen">
     
-    <!-- Navigation -->
-    <header class="bg-brand-navy shadow-lg sticky top-0 z-50">
+    <!-- Screenshot Exact Header -->
+    <header class="bg-[#1a1a2e] shadow-lg sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                     <a href="index.html" class="flex items-center gap-3">
-                        <!-- Ensure your logo is in the assets/images folder -->
-                        <img class="h-12 w-auto object-contain bg-white rounded p-1" src="assets/images/Green and Peach Abstract Solar Energy Logo.jpg" alt="Grid Estimations Logo">
-                        <span class="font-bold text-xl text-white tracking-tight">GRID ESTIMATIONS</span>
+                        <img class="h-10 w-auto object-contain bg-white rounded p-1" src="assets/images/Green and Peach Abstract Solar Energy Logo.jpg" alt="Grid Estimations Logo">
+                        <span class="font-bold text-lg text-white tracking-tight">GRID ESTIMATIONS</span>
                     </a>
                 </div>
-                <nav class="hidden md:flex space-x-8 items-center">
-                    <a href="index.html" class="text-white hover:text-brand-green font-medium transition-colors">Home</a>
-                    <a href="about.html" class="text-gray-300 hover:text-brand-green font-medium transition-colors">About Us</a>
-                    <a href="estimation.html" class="text-gray-300 hover:text-brand-green font-medium transition-colors">Our Trades</a>
-                    <a href="solar.html" class="text-gray-300 hover:text-brand-green font-medium transition-colors">Solar Docs</a>
-                    <a href="contact.html" class="bg-brand-green text-brand-navy px-5 py-2 rounded-md hover:bg-brand-accent transition-colors font-semibold">Get a Quote</a>
+                
+                <!-- Desktop Navigation (Matching image_3c14e4.png) -->
+                <nav class="hidden lg:flex space-x-7 items-center">
+                    <a href="index.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Home</a>
+                    
+                    <!-- Services Dropdown -->
+                    <div class="relative group py-6">
+                        <a href="services.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors flex items-center gap-1 cursor-pointer">
+                            Services
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </a>
+                        <!-- Dropdown Menu -->
+                        <div class="absolute left-0 mt-0 w-64 bg-white rounded-md shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 overflow-hidden top-[70px]">
+                            <a href="services.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Construction Estimating</a>
+                            <a href="services.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Cost Estimating</a>
+                            <a href="services.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Material Takeoffs</a>
+                            <a href="services.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green">Quantity Surveying</a>
+                        </div>
+                    </div>
+
+                    <!-- Our Trades Dropdown (Solar included here) -->
+                    <div class="relative group py-6">
+                        <a href="trades.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors flex items-center gap-1 cursor-pointer">
+                            Our Trades
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </a>
+                        <!-- Dropdown Menu -->
+                        <div class="absolute left-0 mt-0 w-64 bg-white rounded-md shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 overflow-hidden top-[70px] max-h-[70vh] overflow-y-auto">
+                            <a href="trades.html" class="block px-4 py-3 text-sm font-bold text-brand-dark hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100 bg-gray-50">⚡ Solar Design & PE Stamps</a>
+                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Sitework Estimating</a>
+                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Concrete Estimating</a>
+                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Masonry Estimating</a>
+                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Metals Estimating</a>
+                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green border-b border-gray-100">Electrical Estimating</a>
+                            <a href="trades.html" class="block px-4 py-3 text-sm text-gray-700 hover:bg-brand-green/10 hover:text-brand-green">HVAC & Plumbing</a>
+                        </div>
+                    </div>
+
+                    <a href="plans.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Plans</a>
+                    <a href="projects.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Projects</a>
+                    <a href="blogs.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Blogs</a>
+                    <a href="samples.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">Samples</a>
+                    <a href="about.html" class="text-white hover:text-brand-green font-semibold text-[15px] transition-colors">About Us</a>
                 </nav>
+
+                <!-- Contact Button -->
+                <div class="hidden lg:flex items-center">
+                    <a href="contact.html" class="bg-brand-green text-[#1a1a2e] px-6 py-2.5 rounded-md hover:bg-white transition-colors font-bold text-sm">Contact Us</a>
+                </div>
             </div>
         </div>
     </header>
@@ -73,11 +109,8 @@
                     Accurate cost estimates, material takeoffs, and complete solar documentation (PE Stamps & AHJ Compliance). We deliver detailed quantities and labor hours using RSMeans pricing, tailored for contractors and developers nationwide.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                    <a href="contact.html" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-bold rounded-md text-brand-navy bg-brand-green hover:bg-brand-accent transition-all">
+                    <a href="contact.html" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-bold rounded-md text-[#1a1a2e] bg-brand-green hover:bg-white transition-all">
                         Upload Your Plans
-                    </a>
-                    <a href="#divisions" class="inline-flex items-center justify-center px-8 py-4 border border-gray-400 text-base font-bold rounded-md text-white bg-transparent hover:bg-gray-800 transition-all">
-                        View CSI Divisions
                     </a>
                 </div>
             </div>
@@ -86,120 +119,31 @@
         <!-- Stats Bar -->
         <section class="bg-brand-green py-10 shadow-inner">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-brand-navy/20">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-[#1a1a2e]/20">
                     <div class="p-4">
-                        <div class="text-4xl font-extrabold text-brand-navy mb-2">2000 +</div>
-                        <div class="text-brand-navy font-semibold uppercase tracking-wide">Projects Estimated</div>
+                        <div class="text-4xl font-extrabold text-[#1a1a2e] mb-2">2000 +</div>
+                        <div class="text-[#1a1a2e] font-semibold uppercase tracking-wide">Projects Estimated</div>
                     </div>
                     <div class="p-4">
-                        <div class="text-4xl font-extrabold text-brand-navy mb-2">150 +</div>
-                        <div class="text-brand-navy font-semibold uppercase tracking-wide">Trades Covered</div>
+                        <div class="text-4xl font-extrabold text-[#1a1a2e] mb-2">150 +</div>
+                        <div class="text-[#1a1a2e] font-semibold uppercase tracking-wide">Trades Covered</div>
                     </div>
                     <div class="p-4">
-                        <div class="text-4xl font-extrabold text-brand-navy mb-2">4000 +</div>
-                        <div class="text-brand-navy font-semibold uppercase tracking-wide">Satisfied Customers</div>
+                        <div class="text-4xl font-extrabold text-[#1a1a2e] mb-2">4000 +</div>
+                        <div class="text-[#1a1a2e] font-semibold uppercase tracking-wide">Satisfied Customers</div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- CSI Divisions Grid (Replicating Phoenix Layout) -->
-        <section id="divisions" class="py-20 bg-gray-50">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="mb-16">
-                    <h2 class="text-3xl font-extrabold text-brand-dark sm:text-4xl">Estimating by <span class="text-brand-green">CSI Division</span> & Solar</h2>
-                    <p class="mt-4 text-lg text-gray-600 max-w-3xl">Every construction trade has unique materials, labor requirements, and pricing structures. Our estimators specialize by division to ensure absolute accuracy.</p>
-                </div>
-
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    <!-- Solar Division (Custom for Grid Estimations) -->
-                    <div class="bg-white rounded-lg shadow-sm border border-gray-100 flex overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                        <div class="bg-brand-green text-brand-navy w-16 flex items-center justify-center font-bold text-sm tracking-widest vertical-text flex-shrink-0">
-                            SOLAR
-                        </div>
-                        <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-brand-dark mb-2">Solar Documentation & Design</h3>
-                            <p class="text-gray-600 text-sm mb-4">Complete engineering packages including PV design, structural and electrical PE Stamps, and full AHJ compliance for rapid permitting.</p>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">PE Stamps</span>
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">AHJ Compliance</span>
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">PV Design</span>
-                            </div>
-                            <a href="solar.html" class="text-brand-green font-semibold hover:text-brand-dark text-sm">View Solar Details &rarr;</a>
-                        </div>
-                    </div>
-
-                    <!-- Concrete -->
-                    <div class="bg-white rounded-lg shadow-sm border border-gray-100 flex overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                        <div class="bg-brand-navy text-white w-16 flex items-center justify-center font-bold text-sm tracking-widest vertical-text flex-shrink-0">
-                            DIV 03
-                        </div>
-                        <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-brand-dark mb-2">Concrete Estimating</h3>
-                            <p class="text-gray-600 text-sm mb-4">Footings, slabs-on-grade, columns, rebar, formwork, and finishing. We calculate cubic yards of concrete and tonnage of reinforcement accurately.</p>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">Footings</span>
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">Slabs</span>
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">Rebar</span>
-                            </div>
-                            <a href="estimation.html" class="text-brand-navy font-semibold hover:text-brand-green text-sm">View Trade Details &rarr;</a>
-                        </div>
-                    </div>
-
-                    <!-- Masonry -->
-                    <div class="bg-white rounded-lg shadow-sm border border-gray-100 flex overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                        <div class="bg-brand-navy text-white w-16 flex items-center justify-center font-bold text-sm tracking-widest vertical-text flex-shrink-0">
-                            DIV 04
-                        </div>
-                        <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-brand-dark mb-2">Masonry Estimating</h3>
-                            <p class="text-gray-600 text-sm mb-4">CMU block, brick veneer, natural stone, mortar, and accessories. We quantify every block and course with detailed material counts.</p>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">CMU Block</span>
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">Brick Veneer</span>
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">Mortar</span>
-                            </div>
-                            <a href="estimation.html" class="text-brand-navy font-semibold hover:text-brand-green text-sm">View Trade Details &rarr;</a>
-                        </div>
-                    </div>
-
-                    <!-- Electrical / MEP -->
-                    <div class="bg-white rounded-lg shadow-sm border border-gray-100 flex overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                        <div class="bg-brand-navy text-white w-16 flex items-center justify-center font-bold text-sm tracking-widest vertical-text flex-shrink-0">
-                            DIV 26
-                        </div>
-                        <div class="p-6 flex-grow">
-                            <h3 class="text-xl font-bold text-brand-dark mb-2">Electrical & MEP Estimating</h3>
-                            <p class="text-gray-600 text-sm mb-4">Wiring, conduit, panels, switchgear, lighting, HVAC ductwork, and plumbing systems. Complete mechanical, electrical, and plumbing takeoffs.</p>
-                            <div class="flex flex-wrap gap-2 mb-4">
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">Wiring</span>
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">HVAC</span>
-                                <span class="bg-gray-100 border border-gray-200 text-gray-600 text-xs px-2 py-1 rounded">Plumbing</span>
-                            </div>
-                            <a href="estimation.html" class="text-brand-navy font-semibold hover:text-brand-green text-sm">View Trade Details &rarr;</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Software Section -->
-        <section class="py-16 bg-white border-t border-gray-200">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h2 class="text-2xl font-bold text-brand-dark mb-8">Estimating Software <span class="text-brand-green">We Use</span></h2>
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div class="bg-gray-50 py-4 px-6 rounded-md border-b-4 border-brand-green shadow-sm font-semibold text-gray-700">Planswift</div>
-                    <div class="bg-gray-50 py-4 px-6 rounded-md border-b-4 border-brand-green shadow-sm font-semibold text-gray-700">Bluebeam Revu</div>
-                    <div class="bg-gray-50 py-4 px-6 rounded-md border-b-4 border-brand-green shadow-sm font-semibold text-gray-700">AutoCAD</div>
-                    <div class="bg-gray-50 py-4 px-6 rounded-md border-b-4 border-brand-green shadow-sm font-semibold text-gray-700">RS Means</div>
-                </div>
-            </div>
+        
+        <section class="py-20 bg-gray-50 text-center text-gray-500">
+            <p>Main content structure continues here...</p>
         </section>
 
     </main>
     
     <!-- Footer -->
-    <footer class="bg-brand-dark text-white pt-16 pb-8">
+    <footer class="bg-[#1a1a2e] text-white pt-16 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div class="col-span-1 md:col-span-1">
@@ -210,15 +154,15 @@
                     <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase mb-4">Quick Links</h3>
                     <ul class="space-y-2 text-sm text-gray-400">
                         <li><a href="index.html" class="hover:text-brand-green transition">Home</a></li>
-                        <li><a href="estimation.html" class="hover:text-brand-green transition">Our Trades</a></li>
-                        <li><a href="solar.html" class="hover:text-brand-green transition">Solar Documentation</a></li>
+                        <li><a href="trades.html" class="hover:text-brand-green transition">Our Trades</a></li>
+                        <li><a href="services.html" class="hover:text-brand-green transition">Services</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-sm font-semibold text-gray-200 tracking-wider uppercase mb-4">Company</h3>
                     <ul class="space-y-2 text-sm text-gray-400">
                         <li><a href="about.html" class="hover:text-brand-green transition">About Us</a></li>
-                        <li><a href="testimonials.html" class="hover:text-brand-green transition">Testimonials</a></li>
+                        <li><a href="projects.html" class="hover:text-brand-green transition">Projects</a></li>
                         <li><a href="contact.html" class="hover:text-brand-green transition">Contact</a></li>
                     </ul>
                 </div>
