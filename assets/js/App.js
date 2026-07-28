@@ -7,6 +7,7 @@ import CookieConsent from './components/CookieConsent.js';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Services from './pages/Services.js';
+import Trades from './pages/Trades.js';
 import Pricing from './pages/Pricing.js';
 import Contact from './pages/Contact.js';
 function App() {
