@@ -19,9 +19,17 @@ function App() {
                 return _jsx(Home, { onRequestQuote: () => setShowQuotePopup(true) });
             case 'about':
                 return _jsx(About, { onRequestQuote: () => setShowQuotePopup(true) });
-            case 'services':
-                return _jsx(Services, { onRequestQuote: () => setShowQuotePopup(true) });
-            case 'pricing':
+           case 'services':
+    return _jsx(Services, {
+        onRequestQuote: () => setShowQuotePopup(true)
+    });
+
+case 'trades':
+    return _jsx(Trades, {
+        onRequestQuote: () => setShowQuotePopup(true)
+    });
+
+case 'pricing':
                 return _jsx(Pricing, { onRequestQuote: () => setShowQuotePopup(true) });
             case 'contact':
                 return _jsx(Contact, {});
