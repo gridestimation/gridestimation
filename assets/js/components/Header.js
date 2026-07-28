@@ -3,13 +3,14 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 const Header = ({ currentPage, setCurrentPage, onRequestQuote }) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const navItems = [
-        { id: 'home', label: 'Home' },
-        { id: 'about', label: 'About' },
-        { id: 'services', label: 'Services' },
-        { id: 'pricing', label: 'Pricing' },
-        { id: 'contact', label: 'Contact' },
-    ];
+const navItems = [
+    { id: 'home', label: 'Home' },
+    { id: 'about', label: 'About' },
+    { id: 'services', label: 'Services' },
+    { id: 'trades', label: 'Our Trades' },
+    { id: 'pricing', label: 'Pricing' },
+    { id: 'contact', label: 'Contact' },
+];
     const handleNavClick = (page) => {
         setCurrentPage(page);
         setIsMobileMenuOpen(false);
