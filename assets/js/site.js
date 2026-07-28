@@ -30,3 +30,39 @@
     });
   });
 })();
+  document.querySelectorAll('[data-sample-form]').forEach(form => {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const data = new FormData(form);
+
+      const sampleType =
+        data.get('sampleType') || 'Estimate Samples';
+
+      const subject = encodeURIComponent(
+        `Sample Request - ${sampleType}`
+      );
+
+      const body = encodeURIComponent([
+        'Hello Grid Estimations,',
+        '',
+        'I would like to request samples of your work.',
+        '',
+        `Name: ${data.get('name') || ''}`,
+        `Company: ${data.get('company') || ''}`,
+        `Email: ${data.get('email') || ''}`,
+        `Phone: ${data.get('phone') || ''}`,
+        `Primary Trade: ${data.get('trade') || ''}`,
+        `Project Type: ${data.get('projectType') || ''}`,
+        `Sample Required: ${sampleType}`,
+        '',
+        'Additional Details:',
+        data.get('message') || '',
+        '',
+        'Thank you.'
+      ].join('\n'));
+
+      window.location.href =
+        `mailto:${cfg.email || 'your-email@example.com'}?subject=${subject}&body=${body}`;
+    });
+  });
