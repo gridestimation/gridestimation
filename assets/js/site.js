@@ -63,6 +63,6 @@
       ].join('\n'));
 
       window.location.href =
-        `mailto:${cfg.email || 'your-email@example.com'}?subject=${subject}&body=${body}`;
+        `mailto:${cfg.email || 'info@gridestimations.com'}?subject=${subject}&body=${body}`;
     });
   });
